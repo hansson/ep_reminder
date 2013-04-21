@@ -1,5 +1,5 @@
 #!/bin/sh
-users="hansson snovit"
+users="user1 user2 user3"
 for user in ${users}
 do
 	exec < "/home/${user}/.myshows"
